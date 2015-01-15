@@ -7,7 +7,7 @@
 		<link rel="stylesheet" href="/css/style.css" />
 		<title>  Projet 8 </title>
 		</head>
-		<!--<span> </span> : balise qui entoure juste un mot ou un morceau pour "onclick" ; <div> </div> : entoure un morceux de txt  pour la mise en forme  -->
+		<!--<spanhello> </span> : balise qui entoure juste un mot ou un morceau pour "onclick" ; <div> </div> : entoure un morceux de txt  pour la mise en forme  -->
 	
 		<body>
 
