@@ -1,0 +1,121 @@
+body
+{
+    /*background-color: black; /* Le fond de la page sera noir */
+	 background: url("../images/bckgr.jpg") no-repeat center center fixed; /* pour charger l'image de fond */
+	 -webkit-background-size: cover;
+	 -o-background-size: cover;
+	 background-size: cover;
+	
+     color: white; /* Le texte de la page sera blanc */
+}
+@font-face {
+    font-family: 'MaPoliceTitre';
+    src: url('../kaushan-script/KaushanScript-Regular.otf');
+}
+
+
+.paraphv     /* It's a class, so there can be several of those */ 
+{
+    color: #33CC00;  /* un peu verte*/ 
+    text-decoration: line-through;
+}
+
+
+#titre    /*It's an ID so there is only one titre*/ 
+{
+	font-family: 'MaPoliceTitre';
+	color: red;
+}
+
+#date
+{
+	font-family: 'Arial- Black';
+	font-size: 1.5em;
+	margin-left: 10px;
+	color: #F5F456;
+
+}
+h1
+{
+    font-size: 2.3em;
+	/*font-family: Impact, "Arial Black", Arial, Verdana, sans-serif;   /* If first font is not recognized it will try the second etc.  For more fonts go to : http://www.fontsquirrel.com/ */ 
+	text-decoration: underline; 
+	text-align: center;
+}
+
+h2
+{
+   color: rgb(240,96,204);
+
+}
+
+
+#br1
+{
+    background-color: #0072c6;
+  	border: 4px #0072cf groove;
+	color : black;
+	padding: 6px;
+	border-radius: 3px;
+	/*box-shadow: 5px #0072f6; */
+}
+
+#br1:hover  /* means when the mouse is pointing on it */
+{
+    background-color: #0072c4;
+  	border: 15px #0072c4 solid;
+	color : black;
+	border-radius: 8px;
+	/*box-shadow: 5px #0072f6; */
+}
+
+nav
+{
+	border: 2px solid brown;
+	background-color: rgba(143,143,143, 0.7);
+    /*display: inline-block;*/
+    text-align: center;
+	
+
+}
+
+nav ul
+{
+    list-style-type: none;
+}
+
+nav li
+{
+    display: inline-block;
+    margin-right: 60px;
+	border-left: solid;
+	padding:3px;
+	
+}
+
+nav a
+{
+	
+    font-size: 20px;
+    color: #181818;
+	font-family: Arial Black, Impact, Arial;
+   /* padding-bottom: 3px;*/
+    text-decoration: none;
+}
+
+nav #currentpage a{
+
+	font-size: 20px;
+	background : #fff;
+    color: #333;
+	font-family: Arial Black, Impact, Arial;
+	
+
+/*  Im
+age entourée du texte : 
+.imageflottante
+{
+    float: left;
+}
+
+*/

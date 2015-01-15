@@ -1,0 +1,31 @@
+	
+	#frame {width: 1000px; margin:auto; left:0; right:0; height: 500px; position: fixed; border: inset darkslategrey 2px; background-image: url("../images/background1.png");}
+	#player {position : absolute ;  top:0px;  right:15px;  height: 22px; color: black; }
+	#score {position : absolute; top: 22px; right: 15px; height: 22px; color: black; }
+	#time {position: absolute; top:0px; right:0px; left:0px; margin:auto; color: black; text-align:center;z-index:4;}
+
+	#m1 { position : absolute; width: 40px; height: 40px; z-index:4; visibility:hidden; }
+	//#doc { position : absolute; width: 40px; height: 40px; visibility:hidden; background-image: url("../images/docteur.jpg");background-size: 100% auto; background-repeat: no-repeat;}
+
+	#menu {position : absolute; top: 45px; right: 5px;  background-color: grey; border: 4px 4px #0072cf groove; color : black; padding: 5px; 	border-radius: 3px; }
+	#menu:hover {position : absolute;  background-color: #0072c4; border: 9px 9px #0072c4 solid; color : black; border-radius: 6px; }
+
+	#start{position : absolute; margin: auto; top: 50%;  left: 50%; z-index:4; transform: translate(-50%, -50%); background-color: grey; border: 20px  grey solid; color : black; font-size: 25px; border-radius: 3px; }
+	#start:hover {position : absolute; margin: auto; top: 50%;  left: 50%; transform: translate(-50%, -50%);  background-color: #0072c4; border: 25px  #0072c4 solid; color : black; border-radius: 6px; } 
+	#lose {position : absolute; margin: auto; top: 50%;  left: 50%; z-index:4; transform: translate(-50%, -50%); background-color: grey; border: 20px  grey solid; color : black; font-size: 25px; border-radius: 3px; visibility:hidden;}
+	#nextlvl {position : absolute; margin: auto; top: 50%;  left: 50%; z-index:4; transform: translate(-50%, -50%); background-color: grey; border: 20px  grey solid; color : black; font-size: 25px; border-radius: 3px; visibility:hidden;}
+	#nextlvl:hover {position : absolute; margin: auto; top: 50%;  left: 50%; transform: translate(-50%, -50%);  background-color: #0072c4; border: 25px  #0072c4 solid; color : black; border-radius: 6px; } 
+	
+	#restart{position : absolute; margin: auto; top: 50%;  left: 50%; z-index:4; transform: translate(-50%, -50%); background-color: grey; border: 20px  grey solid; color : black; font-size: 25px; border-radius: 3px; visibility:hidden;}
+	
+	.type2 {position : absolute; width: 40px; height: 40px; background-image: url("../images/docteur.jpg");background-size: 100% auto; background-repeat: no-repeat;}
+	.type1 {width: 40px; height: 40px; background-color:black;}
+	.type3 {width: 80px; height: 40px; background-color:purple; color:black;}
+
+	.move1{background-image: url("../images/MarioR.png");background-size: 100% auto; background-repeat: no-repeat;}
+	.move2{background-image: url("../images/MarioRL.png"); background-size: 100% auto; background-repeat: no-repeat;}
+	.move3{background-image: url("../images/MarioW.png");background-size: auto 100%; background-repeat: no-repeat;}
+	
+	
+	
+	form {position:absolute; background-color: white; width: 300px; height: 150px; border: 2px solid grey; margin:auto; left:0; right:0; top:0; bottom:0; text-align: center; padding: 10; color:black;}
