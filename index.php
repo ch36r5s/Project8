@@ -1,5 +1,5 @@
 
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <?php $thisPage="acceuil";?>
 	<html>
 		<head>
@@ -43,7 +43,7 @@
 				
 				<p>Ou pour plus d'info sur  creation de sites web cliquer sur l'image ou le lien : <a href="http://www.w3schools.com"> <span id="br1">w3school</span></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <!--&nbsp;" sont simplement des espaces -->
 				
-				<!-- mark sert à changer de fond que pour cette partie --> 
+				<!-- mark sért à changer de fond que pour cette partie--> 
 				  <a href="http://www.w3schools.com">   <img src="./images/w3school.jpg" alt="W3Schools.com" style="width:200px;height:100px"></a> </p>
 				<p> Image à partir d'un lien URL: </br>  <img src="http://www.w3schools.com/images/w3schools_green.jpg"> </p>
 				
